@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+  color: white; /* Set text color to white for better visibility on black background */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Optional: Hide overflow to prevent scrolling */
+}
