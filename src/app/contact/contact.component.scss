@@ -1,15 +1,66 @@
 div{
   text-align: center;
 }
-p{
+p.description{
   font-size: 19px;
   color: #776767;
   margin-bottom: 30px;
   text-align: center;
   padding-top: 100px;
 }
-span {
+span.email {
   font-size: 20px;
   color: #912b2b;
   padding-top: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+form {
+  display: block;
+  margin-top: 1em;
+  font-size: 16px;
+}
+
+.contact-form .form-control {
+  background: #222;
+  border-radius: 0;
+  height: auto;
+  padding: 14px 20px;
+  border: 1px solid #333;
+  margin-bottom: 10px;
+  resize: none;
+  outline: 0;
+  box-shadow: none;
+  color: #fff;
+}
+.btn-contact {
+  background: none;
+  display: inline-block;
+  border: 1px solid #ff5d56;
+  color: #ff5d56;
+  padding: 12px 10px;
+  cursor: pointer;
+  margin-top: 2px;
+  transition: all 0.4s;
+}
+
+.section-title h2 {
+  color: #ff5d56;
+  font-family: 'Berkshire Swash', cursive;
+  font-weight: normal;
+  font-size: 36px;
+}
+::-webkit-input-placeholder {
+  color: #695b5b;
+}
+
+hr{
+  margin-top: 40px;
 }
