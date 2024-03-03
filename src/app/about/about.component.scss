@@ -32,6 +32,8 @@
 */
 
 
+
+
 .about-me {
   font-family: Arial, sans-serif;
   padding-left: 30px;
@@ -41,7 +43,7 @@
     margin-bottom: 30px;
 
     h1 {
-      color: #be4949;
+      color: #6c757d;
       font-size: 32px;
       margin-bottom: 10px;
     }
@@ -58,9 +60,10 @@
       }
 
       p {
+        padding-top: 10px;
         font-size: 17px;
         line-height: 1.5;
-        color: #9d5151;
+        color: #776767;
 
         &.description {
           font-style: italic;
@@ -68,4 +71,20 @@
       }
     }
   }
+}
+ p.about{
+   text-align: center;
+ }
+
+.btn-more {
+  background: none;
+  display: block;
+  border: 1px solid #6c757d;;
+  color: #6c757d;
+  padding: 12px 10px;
+  cursor: pointer;
+  margin: 2px auto;
+  transition: all 0.4s;
+  max-width: fit-content;
+  text-decoration: none;
 }
