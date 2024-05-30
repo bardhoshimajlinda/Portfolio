@@ -11,7 +11,15 @@ import {FooterComponent} from "../footer/footer.component";
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [RouterOutlet, RouterLink, RouterLinkActive, HomeComponent,AboutComponent, ProjectsComponent, ResumeComponent, ContactComponent, FooterComponent],
+  imports: [RouterOutlet,
+    RouterLink,
+    RouterLinkActive,
+    HomeComponent,
+    AboutComponent,
+    ProjectsComponent,
+    ResumeComponent,
+    ContactComponent,
+    FooterComponent],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })

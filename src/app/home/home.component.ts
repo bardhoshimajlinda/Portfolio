@@ -11,5 +11,5 @@ import {FooterComponent} from "../footer/footer.component";
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-  image: string = 'assets/majli.jpg';
+  image: string = 'assets/majli.jpeg';
 }
